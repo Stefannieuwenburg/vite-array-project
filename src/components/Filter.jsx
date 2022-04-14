@@ -14,6 +14,7 @@ export default function Filter(props) {
                     .map((item) => (
                         <li key={uuidv4()}>
                             <big>{item.price}</big>
+                            <big>{item.name}</big>
                         </li>
                     ))}
             </ul>
